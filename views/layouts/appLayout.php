@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>ADMIN IM</title>
+        <title>ADMIN CONAMAR</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta http-equiv="Expires" content="0">
         <meta http-equiv="Last-Modified" content="0">
@@ -11,17 +11,17 @@
         <meta http-equiv="Pragma" content="no-cache">
 
         <!-- Favicon -->
-        <link href="/images/logo.png" rel="icon">
+        <link href="./images/logos/CONAMAR.png" rel="icon">
 
 
-        <meta name="description" content="Página de la Industria MIlitar MDN.">
+        <meta name="description" content="Página de la Comisión Nacional de Administración Maritima.">
         <meta name="keywords" content="especies, estancadas, mindef, ministerio, defensa, guatemala, explosivos">
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="https://industriamilitar.mindef.mil.gt/">
 
         <meta property="og:title" content="Industria MIlitar">
-        <meta property="og:description" content="Pagina de la Industria MIlitar MINDEF.">
-        <meta property="og:image" content="https://industriamilitar.mindef.mil.gt/images/logo.png">
+        <meta property="og:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
+        <meta property="og:image" content="https://industriamilitar.mindef.mil.gt/images/logos/CONAMAR.png">
         <meta property="og:url" content="https://industriamilitar.mindef.mil.gt">
         <meta property="og:type" content="website">
         <meta property="og:image:width" content="1200">
@@ -29,8 +29,8 @@
 
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Industria MIlitar MINDEF.">
-        <meta name="twitter:description" content="Pagina de la Industria MIlitar MINDEF.">
-        <meta name="twitter:image" content="https://industriamilitar.mindef.mil.gt/images/logo.png">
+        <meta name="twitter:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
+        <meta name="twitter:image" content="https://industriamilitar.mindef.mil.gt/images/logos/CONAMAR.png">
         <meta name="twitter:url" content="https://industriamilitar.mindef.mil.gt">
 
         <meta http-equiv="Content-Language" content="es">
@@ -51,6 +51,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/3f7d66e10f.js" crossorigin="anonymous"></script>
         <!-- Template Javascript -->
+        <script src="https://cdn.tiny.cloud/1/mmwp722h7u6qc0zx8zr1g4p2drnl84mgyij8guh9kibr0pb1/tinymce/7/tinymce.min.js"
+            referrerpolicy="origin"></script>
         <script defer src="<?= asset('./build/js/app.js') ?>"></script>
         <script defer src="<?= asset('./build/js/main.js') ?>"></script>
 
@@ -73,9 +75,9 @@
                     <i class="fas fa-bars text-white fa-2xl"></i>
                 </button>
                 <!-- <p class="h1 text-white">DGEEEI</p>  -->
-                <a href="/admin/">
-                    <img src="/images/logo.png" width="40px" alt="logo">
-                    <span class="h2 align-middle text-white d-none d-md-inline">IM</span>
+                <a href="/admin/" class="btn">
+                    <img src="/images/logos/CONAMAR.png" width="40px" alt="logo">
+                    <span class="h2 align-middle text-white d-none d-md-inline">CONAMAR</span>
                 </a>
             </div>
             <div class="dropdown-center">
@@ -112,8 +114,8 @@
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <div class="list-group list-group-flush">
-                                    <a href="/admin/productos" class="list-group-item list-group-item-action"><i
-                                            class="fas fa-file-circle-plus me-2"></i>Productos</a>
+                                    <a href="/admin/entradas" class="list-group-item list-group-item-action"><i
+                                            class="fas fa-file-circle-plus me-2"></i>Entradas de blog</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +132,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0 text-center">&copy; Comando de Informática y Tecnología <?= date('Y') ?></p>
+                        <p class="mb-0 text-center">&copy; MINDEF <?= date('Y') ?></p>
                     </div>
                 </div>
             </div>
