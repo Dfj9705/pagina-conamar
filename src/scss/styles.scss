@@ -2,10 +2,10 @@
 
 // Sobrescribir la variable --bs-primary
 :root {
-  --bs-primary: #3368c6; // Cambia el valor a tu color deseado
+  --bs-primary: #2e394b; // Cambia el valor a tu color deseado
 }
 .bg-primary{
-    background-color:#0059a1 !important
+    background-color:#2e394b !important
 }
 
 .list-group-item.active{
@@ -103,26 +103,26 @@
     line-height: 0;
 }
 
-.icon-box-primary::before,
-.icon-box-light::before {
-    position: absolute;
-    content: "";
-    width: 35px;
-    height: 35px;
-    left: 0;
-    bottom: 0;
-    border-radius: 35px;
-    transition: .5s;
-    z-index: -1;
-}
+// .icon-box-primary::before,
+// .icon-box-light::before {
+//     position: absolute;
+//     content: "";
+//     width: 35px;
+//     height: 35px;
+//     left: 0;
+//     bottom: 0;
+//     border-radius: 35px;
+//     transition: .5s;
+//     z-index: -1;
+// }
 
-.icon-box-primary::before {
-    background: var(--bs-primary);
-}
+// .icon-box-primary::before {
+//     background: var(--bs-primary);
+// }
 
-.icon-box-light::before {
-    background: var(--bs-light);
-}
+// .icon-box-light::before {
+//     background: var(--bs-light);
+// }
 
 
 /*** Navbar ***/
@@ -249,12 +249,12 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(3, 27, 78, .7), rgba(3, 27, 78, .7)), url('../images/soldadocosturando.jpg') center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .7), rgba(3, 27, 78, .7)), url('../images/1.JPG') center center no-repeat;
     background-size: cover;
 }
 
 .page-header-2 {
-    background: linear-gradient(rgba(3, 27, 78, .7), rgba(3, 27, 78, .7)), url('../images/soldadocosturando.jpg') center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .7), rgba(3, 27, 78, .7)), url('../images/1.JPG') center center no-repeat;
     background-size: cover;
 }
 
@@ -273,7 +273,7 @@
 
 /*** Features ***/
 .feature {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url('../images/soldadocosturando.jpg') left center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url('../images/1.JPG') left center no-repeat;
     background-size: cover;
 }
 
@@ -474,7 +474,7 @@
 }
 
 .service-item:hover .icon-box-primary::before {
-    background: var(--bs-dark);
+    background: var(--bs-light);
 }
 
 .service-item:hover .icon-box-primary i {
@@ -534,7 +534,7 @@
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url('../images/soldadocosturando.jpg') left center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url('../images/1.JPG') left center no-repeat;
     background-size: cover;
 }
 
