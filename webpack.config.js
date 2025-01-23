@@ -10,7 +10,7 @@ module.exports = {
     'js/inicio': './src/js/inicio.js',
     'js/pages/contacto': './src/js/pages/contacto.js',
     'js/pages/productos': './src/js/pages/productos.js',
-    'js/admin/productos': './src/js/admin/productos.js',
+    'js/admin/entradas': './src/js/admin/entradas.js',
     'js/auth/login': './src/js/auth/login.js',
     'css/styles': ['./src/scss/app.scss'],
   },

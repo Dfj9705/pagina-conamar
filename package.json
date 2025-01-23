@@ -43,6 +43,7 @@
     "pdfjs-dist": "^4.6.82",
     "sass": "^1.77.5",
     "sweetalert2": "^11.11.1",
+    "tinymce": "^7.6.1",
     "waypoints": "^4.0.1",
     "wow.js": "^1.2.2"
   }
