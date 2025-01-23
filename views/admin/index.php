@@ -2,7 +2,7 @@
 
 <div class="row justify-content-center pt-3">
     <div class="col-lg-3">
-        <img src="/images/logo.png" alt="" class="w-100">
+        <img src="/images/logos/CONAMAR.png" alt="" class="w-100">
     </div>
 </div>
 
