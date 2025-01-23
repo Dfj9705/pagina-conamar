@@ -23,11 +23,9 @@ class AppController
     {
         $router->render('pages/contacto', []);
     }
-    public static function productos(Router $router)
+    public static function blog(Router $router)
     {
-        $categorias = Categoria::all();
-        $router->render('pages/productos', [
-            'categorias' => $categorias,
+        $router->render('pages/blog', [
         ]);
     }
 
