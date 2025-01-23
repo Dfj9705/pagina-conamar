@@ -11,18 +11,19 @@
             <div class="text-center mx-auto wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s"
                 style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Visión</h1>
-                <p class="mb-5 fs-4">Ser la industria líder en satisfacer las necesidades administrativas y
-                    operativas del Ejército de Guatemala, proveyendo calzado, vestuario y
-                    equipo militar de la más alta calidad.</p>
+                <p class="mb-5 fs-4">Ser la comisión encargada de coordinar y administrar de manera efectiva los
+                    recursos marítimos nacionales, consolidando un sistema integral de políticas y estrategias que
+                    aseguren el desarrollo, la seguridad y la sostenibilidad del sector marítimo de Guatemala, mediante
+                    una gestión interinstitucional eficiente y una sólida participación nacional e internacional.</p>
             </div>
         </div>
         <div class="col-lg-6 py-5">
             <div class="text-center mx-auto wow animate__animated animate__fadeInRight" data-wow-delay="0.1s"
                 style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Misión</h1>
-                <p class="mb-5 fs-4">Fabricar, importar, comercializar y distribuir artículos, bienes,
-                    equipos, armas y suministros de toda clase, que requiera el Ejército de
-                    Guatemala.</p>
+                <p class="mb-5 fs-4">Coordinar las actividades del Estado en el ámbito marítimo, recomendando políticas
+                    y estrategias para promover el desarrollo sostenible del sector, a través de la cooperación
+                    interinstitucional y la revisión periódica de políticas y planes.</p>
             </div>
         </div>
     </div>
