@@ -94,7 +94,7 @@
                         <img src="/images/logos/CONAMAR.png" class="w-100" alt="">
                     </div>
                     <div class="d-flex flex-column" style="text-align:left">
-                        <a href="/" class="h1 mb-0 text-decoration-none text-dark mb-3">Comisión Nacional de
+                        <a href="/" class="display-6 mb-0 text-decoration-none text-dark mb-3">Comisión Nacional de
                             Administración Maritima</a>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
 
 
         <!-- Navbar Start -->
-        <div class="container-fluid bg-primary sticky-top">
+        <div class="container-fluid bg-primary text-w sticky-top">
             <div class="container">
                 <nav class="navbar bg-primary navbar-expand-lg navbar-light text-white py-lg-0 px-lg-3">
                     <a href="/" class="navbar-brand d-lg-none">
@@ -112,15 +112,15 @@
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon text-white"></span>
                     </button>
                     <div class="collapse navbar-collapse text-white" id="navbarCollapse">
                         <div class="navbar-nav">
                             <a href="/" class="nav-item nav-link">Inicio</a>
                             <a href="/mision-vision" class="nav-item nav-link">Misión y Visión</a>
                             <a href="/quienes-somos" class="nav-item nav-link">Historia</a>
+                            <a href="/blog" class="nav-item nav-link">Noticias</a>
                             <a href="/contacto" class="nav-item nav-link">Contáctenos</a>
-                            <a href="/blog" class="nav-item nav-link">Blog</a>
                         </div>
                         <div class="ms-auto d-none d-lg-flex">
                             <a target="_blank" class="btn btn-sm-square btn-light ms-2" target="_blank"
@@ -146,9 +146,9 @@
             data-wow-delay="0.1s">
             <div class="container">
                 <div class="row g-5 py-5">
-                    <div class="col-lg-12 pe-lg-5">
+                    <div class="col-lg-12 pe-lg-5 overflow-hidden">
                         <a href="/" class="navbar-brand">
-                            <h1 class="h1 text-white mb-0">Comisión Nacional de Administración Maritima</h1>
+                            <h1 class="h1 text-white mb-0">CONAMAR</h1>
                         </a>
                         <p class="fs-5 mb-4"></p>
                         <p class="text-white"><i class="fa fa-map-marker-alt me-2"></i>xxxxxxxxxxxx Guatemala
@@ -181,7 +181,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0 text-center">&copy; MINDEF <?= date('Y') ?></p>
+                        <p class="mb-0 text-center">&copy; CONAMAR <?= date('Y') ?></p>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-danger btn-lg-square rounded-circle back-to-top d-flex align-items-center"><i
+        <a href="#" class="btn btn-lg btn-danger btn-lg-square rounded-circle back-to-top"><i
                 class="fas fa-arrow-up"></i></a>
 
 

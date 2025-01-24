@@ -3,7 +3,7 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="images/carousel/1.JPG" alt="Image">
+                <img class="w-100" src="images/carousel/1.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/1.JPG" alt="Image">
+                <img class="w-100" src="images/carousel/2.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/1.JPG" alt="Image">
+                <img class="w-100" src="images/carousel/3.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/1.JPG" alt="Image">
+                <img class="w-100" src="images/carousel/4.JPG" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -59,7 +59,49 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/1.JPG" alt="Image">
+                <img class="w-100" src="images/carousel/5.jpg" alt="Image">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7 text-end">
+                                <h1 class="display-1 text-white animate__animated animate__slideInRight mb-3">
+                                    CONAMAR</h1>
+                                <!-- <p class="fs-4 mb-5 animate__animated animate__slideInLeft">Respetamos y protegemos la dignidad humana.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="images/carousel/6.jpg" alt="Image">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7 text-end">
+                                <h1 class="display-1 text-white animate__animated animate__slideInRight mb-3">
+                                    CONAMAR</h1>
+                                <!-- <p class="fs-4 mb-5 animate__animated animate__slideInLeft">Respetamos y protegemos la dignidad humana.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="images/carousel/7.jpg" alt="Image">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7 text-end">
+                                <h1 class="display-1 text-white animate__animated animate__slideInRight mb-3">
+                                    CONAMAR</h1>
+                                <!-- <p class="fs-4 mb-5 animate__animated animate__slideInLeft">Respetamos y protegemos la dignidad humana.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="images/carousel/8.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -123,7 +165,7 @@
                     <div class="icon-box-primary mb-4 h-100 d-flex flex-column justify-content-center">
                         <img src="./images/logos/MINDEF.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de la Defensa Nacional</h4>
+                    <h5 class="mb-3">Viceministro de Marina del Ministerio de la Defensa Nacional</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -131,7 +173,8 @@
                     <div class="icon-box-primary mb-4 h-100 d-flex flex-column justify-content-center">
                         <img src="./images/logos/MAGA.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de Agricultura Ganadería y Alimentación</h4>
+                    <h5 class="mb-3">Viceministro de Sanidad Agropecuaria y Regulaciones del Ministerio de Agricultura
+                        Ganadería y Alimentación</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -139,7 +182,7 @@
                     <div class="icon-box-primary mb-4 h-100 d-flex flex-column justify-content-center">
                         <img src="./images/logos/MARN.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de Ambiente y Recursos Naturales</h4>
+                    <h5 class="mb-3">Viceministro de Ambiente del Ministerio de Ambiente y Recursos Naturales</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -147,7 +190,7 @@
                     <div class="icon-box-primary mb-4 h-100 flex-1 d-flex flex-column justify-content-center">
                         <img src="./images/logos/CIV.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de Comunicaciones Infraestructura y Vivienda</h4>
+                    <h5 class="mb-3">Viceministro de Comunicaciones Infraestructura y Vivienda</h4>
                 </div>
             </div>
         </div>
@@ -155,9 +198,9 @@
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item d-flex flex-column justify-content-between">
                     <div class="icon-box-primary mb-4 h-100 d-flex flex-column justify-content-center">
-                        <img src="./images/logos/MINDEF.png" class="w-100" alt="">
+                        <img src="./images/logos/MINECO.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de Economía</h4>
+                    <h5 class="mb-3">Viceministro de Integración y Comercio Exterior del Ministerio de Economía</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -165,7 +208,7 @@
                     <div class="icon-box-primary mb-4 h-100 d-flex flex-column justify-content-center">
                         <img src="./images/logos/MEM.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de Energía y Minas</h4>
+                    <h5 class="mb-3">Viceministro de Energía y Minas</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -173,7 +216,7 @@
                     <div class="icon-box-primary mb-4 h-100 d-flex flex-column justify-content-center">
                         <img src="./images/logos/MINEX.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Ministerio de Relaciones Exteriores</h4>
+                    <h5 class="mb-3">Viceministro de Relaciones Exteriores</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
@@ -181,7 +224,7 @@
                     <div class="icon-box-primary mb-4 h-100 flex-1 d-flex flex-column justify-content-center">
                         <img src="./images/logos/CONAP.png" class="w-100" alt="">
                     </div>
-                    <h5 class="mb-3">Consejo Nacional de Areas Protegidas</h4>
+                    <h5 class="mb-3">Secretario Ejecutivo del Consejo Nacional de Areas Protegidas</h4>
                 </div>
             </div>
         </div>

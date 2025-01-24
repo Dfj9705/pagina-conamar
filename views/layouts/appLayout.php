@@ -132,7 +132,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0 text-center">&copy; MINDEF <?= date('Y') ?></p>
+                        <p class="mb-0 text-center">&copy; CONAMAR <?= date('Y') ?></p>
                     </div>
                 </div>
             </div>
