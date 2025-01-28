@@ -67,8 +67,14 @@
             <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
         </div>
         <!-- Spinner End -->
-
-
+        <?php if (isset($_ENV['BUILDING'])): ?>
+            <div class="progress fixed-top mb-4">
+                <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated " role="progressbar"
+                    aria-label="Warning striped example" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"><span class="text-danger fw-bold"><img class="me-2" width="25px"
+                            src="./images/otros/en-construccion.png" alt="">SITIO EN CONSTRUCCIÓN</span></div>
+            </div>
+        <?php endif ?>
         <!-- Topbar Start -->
         <div class="container-fluid bg-primary text-white py-2 d-none d-lg-flex border-bottom border-warning border-5">
             <div class="container">
@@ -107,7 +113,8 @@
         <div class="container-fluid bg-primary text-w sticky-top">
             <div class="container">
                 <nav class="navbar bg-primary navbar-expand-lg navbar-light text-white py-lg-0 px-lg-3">
-                    <a href="/" class="navbar-brand d-lg-none">
+                    <a href="/" class="navbar-brand d-lg-none d-flex">
+                        <img src="/images/logos/CONAMAR.png" width="38px" alt="">
                         <h1 class="text-white m-0">CONAMAR</h1>
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
