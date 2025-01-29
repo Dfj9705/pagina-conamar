@@ -3,7 +3,7 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="images/carousel/1.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/1.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/2.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/2.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/3.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/3.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/4.JPG" alt="Image">
+                <img class="w-100" src="./images/carousel/4.JPG" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/5.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/5.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/6.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/6.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/7.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/7.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="images/carousel/8.jpg" alt="Image">
+                <img class="w-100" src="./images/carousel/8.jpg" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -131,7 +131,7 @@
     <div class="container pb-5">
         <div class="row g-5 align-items-center mb-5">
             <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
-                <img class="img-fluid w-100" src="images/otros/viceministro_marina.png" alt="">
+                <img class="img-fluid w-100" src="./images/otros/viceministro_marina.png" alt="">
             </div>
             <div class="col-md-6 wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
                 <h1 class="display-6 mb-3">Vicealmirante Edy Santiago Chinchilla Archila</h1>

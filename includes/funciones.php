@@ -102,7 +102,7 @@ function getHeadersApi()
 
 function asset($ruta)
 {
-    return "/" . $_ENV['APP_NAME'] . "/public/" . $ruta;
+    return "/public/" . $ruta;
 }
 
 function sanitizar($datos)
@@ -510,4 +510,50 @@ function convertirImagenABase64($rutaImagen)
     } else {
         return false; // Si no encuentra la imagen, retorna false o maneja el error de la forma que desees
     }
+}
+
+function generarSlug($texto)
+{
+    // Convertir a minúsculas
+    $texto = strtolower($texto);
+
+    // Reemplazar caracteres acentuados y especiales por su equivalente
+    $caracteres = [
+        'á' => 'a',
+        'é' => 'e',
+        'í' => 'i',
+        'ó' => 'o',
+        'ú' => 'u',
+        'ñ' => 'n',
+        'ä' => 'a',
+        'ë' => 'e',
+        'ï' => 'i',
+        'ö' => 'o',
+        'ü' => 'u',
+        'Á' => 'a',
+        'É' => 'e',
+        'Í' => 'i',
+        'Ó' => 'o',
+        'Ú' => 'u',
+        'Ñ' => 'n',
+        'Ä' => 'a',
+        'Ë' => 'e',
+        'Ï' => 'i',
+        'Ö' => 'o',
+        'Ü' => 'u',
+        'ç' => 'c',
+        'Ç' => 'c'
+    ];
+    $texto = strtr($texto, $caracteres);
+
+    // Eliminar caracteres no alfanuméricos (excepto espacios)
+    $texto = preg_replace('/[^a-z0-9\s-]/', '', $texto);
+
+    // Reemplazar espacios y guiones múltiples por un solo guion
+    $texto = preg_replace('/[\s-]+/', '-', $texto);
+
+    // Eliminar guiones al inicio o final del texto
+    $texto = trim($texto, '-');
+
+    return $texto;
 }
