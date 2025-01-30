@@ -17,12 +17,12 @@
         <meta name="description" content="Página de la Comisión Nacional de Administración Maritima.">
         <meta name="keywords" content="comisión, marina, defensa, nacional">
         <meta name="robots" content="index, follow">
-        <link rel="canonical" href="https://industriamilitar.mindef.mil.gt/">
+        <link rel="canonical" href="https://conamar.gob.gt/">
 
         <meta property="og:title" content="Industria Militar">
         <meta property="og:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
-        <meta property="og:image" content="https://im.mindef.mil.gt/images/logo.png">
-        <meta property="og:url" content="https://im.mindef.mil.gt">
+        <meta property="og:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
+        <meta property="og:url" content="https://conamar.gob.gt">
         <meta property="og:type" content="website">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
@@ -30,8 +30,8 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Comisión Nacional de Administración Maritima.">
         <meta name="twitter:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
-        <meta name="twitter:image" content="https://im.mindef.mil.gt/images/logo.png">
-        <meta name="twitter:url" content="https://im.mindef.mil.gt">
+        <meta name="twitter:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
+        <meta name="twitter:url" content="https://conamar.gob.gt">
 
         <meta http-equiv="Content-Language" content="es">
 
@@ -79,9 +79,7 @@
         <div class="container-fluid bg-primary text-white py-2 d-none d-lg-flex border-bottom border-warning border-5">
             <div class="container">
                 <div class="d-flex justify-content-between">
-                    <div>
-                        <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>xxxxxxxxxxxxxxxxxxxxxxx
-                            Guatemala</small>
+                    <div><small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Guatemala, Guatemala</small>
                     </div>
                     <div>
                         <small class="me-3"><i class="fa fa-clock me-2"></i><span id="time"></span></small>
@@ -127,6 +125,7 @@
                             <a href="/mision-vision" class="nav-item nav-link">Misión y Visión</a>
                             <a href="/quienes-somos" class="nav-item nav-link">Historia</a>
                             <a href="/blog" class="nav-item nav-link">Noticias</a>
+                            <a href="/biblioteca" class="nav-item nav-link">Biblioteca virtual</a>
                             <a href="/contacto" class="nav-item nav-link">Contáctenos</a>
                         </div>
                         <div class="ms-auto d-none d-lg-flex">
@@ -156,7 +155,7 @@
                             <h1 class="h1 text-white mb-0">CONAMAR</h1>
                         </a>
                         <p class="fs-5 mb-4"></p>
-                        <p class="text-white"><i class="fa fa-map-marker-alt me-2"></i>xxxxxxxxxxxx Guatemala
+                        <p class="text-white"><i class="fa fa-map-marker-alt me-2"></i>Guatemala, Guatemala
                         </p>
                         <p><a class="text-decoration-none text-white" href="tel:+50235710052"><i
                                     class="fa fa-phone-alt me-2"></i>+502 35710052</p></a>

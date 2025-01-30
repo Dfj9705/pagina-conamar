@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../includes/app.php';
 
 
+use Controllers\NoticiaController;
 use Controllers\ProductoController;
 use MVC\Router;
 use Controllers\AppController;
@@ -18,6 +19,7 @@ $router->get('/mision-vision', [AppController::class, 'misionVision']);
 $router->get('/quienes-somos', [AppController::class, 'quienesSomos']);
 $router->get('/contacto', [AppController::class, 'contacto']);
 $router->get('/blog', [AppController::class, 'blog']);
+$router->get('/biblioteca', [AppController::class, 'biblioteca']);
 $router->post('/API/contacto/enviar', [ContactoController::class, 'enviar']);
 $router->get('/test', [AppController::class, 'test']);
 $router->get('/login', [AuthController::class, 'login']);
@@ -25,8 +27,8 @@ $router->post('/login', [AuthController::class, 'loginAPI']);
 $router->get('/logout', [AuthController::class, 'logout']);
 
 $router->get('/admin/', [AppController::class, 'admin']);
-$router->get('/admin/entradas', [ProductoController::class, 'index']);
-$router->post('/API/admin/productos/guardar', [ProductoController::class, 'guardarAPI']);
+$router->get('/admin/entradas', [NoticiaController::class, 'index']);
+$router->post('/API/admin/entradas/guardar', [NoticiaController::class, 'guardarAPI']);
 $router->post('/API/admin/productos/modificar', [ProductoController::class, 'modificarAPI']);
 $router->get('/API/admin/productos/buscar', [ProductoController::class, 'buscarAPI']);
 $router->get('/API/admin/productos/categoria', [ProductoController::class, 'categoriaAPI']);

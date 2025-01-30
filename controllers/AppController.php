@@ -28,6 +28,11 @@ class AppController
         $router->render('pages/blog', [
         ]);
     }
+    public static function biblioteca(Router $router)
+    {
+        $router->render('pages/biblioteca', [
+        ]);
+    }
 
     public static function admin(Router $router)
     {
