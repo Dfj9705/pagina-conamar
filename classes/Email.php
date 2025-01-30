@@ -31,7 +31,7 @@ class Email
         $this->mail->CharSet = "UTF-8";
         $this->mail->AddReplyTo($from ?? $_ENV['EMAIL_FROM_ADDRESS'], $name ?? $_ENV['EMAIL_FROM_ADDRESS']);
         $this->mail->setFrom($from ?? $_ENV['EMAIL_FROM_ADDRESS'], $name ?? $_ENV['EMAIL_FROM_ADDRESS']);
-        $imagePath = __DIR__ . '/../public/images/logos/conamar.png';
+        $imagePath = __DIR__ . '/../public/images/logos/CONAMAR.png';
         $this->mail->AddEmbeddedImage($imagePath, 'escudo', 'logo.png');
 
         $this->mail->isHTML(true);
