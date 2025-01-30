@@ -13,25 +13,25 @@
         </div>
         <div class="row contact-info position-relative g-0 mb-5">
             <div class="col-lg-6">
-                <a href="tel:+50223035400" class="d-flex justify-content-lg-center text-decoration-none bg-primary p-4">
+                <a href="tel:+50235710052" class="d-flex justify-content-lg-center text-decoration-none bg-primary p-4">
                     <div class="icon-box-light flex-shrink-0">
                         <i class="bi bi-phone text-dark"></i>
                     </div>
                     <div class="ms-3">
                         <h5 class="text-white">Llamenos</h5>
-                        <h2 class="text-white mb-0">2303 5400</h2>
+                        <h2 class="text-white mb-0">3571 0052</h2>
                     </div>
                 </a>
             </div>
             <div class="col-lg-6">
-                <a href="mailto:industriamilitar@gmail.com"
+                <a href="mailto:informatica@dgam.gob.gt"
                     class="d-flex justify-content-lg-center text-decoration-none bg-primary p-4">
                     <div class="icon-box-light flex-shrink-0">
                         <i class="bi bi-envelope text-dark"></i>
                     </div>
                     <div class="ms-3 " style="overflow: hidden;">
                         <h5 class="text-white">Correo</h5>
-                        <h2 class="text-white mb-0">xxxxxxxxxxxxx@gmail.com</h2>
+                        <h2 class="text-white mb-0">informatica@dgam.gob.gt</h2>
                     </div>
                 </a>
             </div>

@@ -160,21 +160,18 @@
                         <p class="fs-5 mb-4"></p>
                         <p class="text-white"><i class="fa fa-map-marker-alt me-2"></i>xxxxxxxxxxxx Guatemala
                         </p>
-                        <p><a class="text-decoration-none text-white" href="tel:xxxx-xxxx"><i
-                                    class="fa fa-phone-alt me-2"></i>xxxx-xxxx</p></a>
-                        <p><a class="text-decoration-none text-white"
-                                href="https://wa.me/502XXXXXXXX?text=Hola,%20quiero%20más%20información"><i
-                                    class="fa fa-whatsapp me-2"></i>+502 XXXXXXXX</p></a>
-                        <p><a class="text-decoration-none text-white" href="mailto:XXXXXXXXX@gmail.com"><i
-                                    class="fa fa-envelope me-2"></i>XXXXXXXXX@gmail.com</p></a>
+                        <p><a class="text-decoration-none text-white" href="tel:+50235710052"><i
+                                    class="fa fa-phone-alt me-2"></i>+502 35710052</p></a>
+                        <p><a class="text-decoration-none text-white" href="mailto:informatica@dgam.gob.gt"><i
+                                    class="fa fa-envelope me-2"></i>informatica@dgam.gob.gt</p></a>
                         <div class="d-flex mt-4">
-                            <a target="_blank" class="btn btn-lg-square btn-primary me-2"
+                            <!-- <a target="_blank" class="btn btn-lg-square btn-primary me-2"
                                 href="https://www.tiktok.com/@industriamilitargt502"><i class="fab fa-tiktok"></i></a>
                             <a target="_blank" class="btn btn-lg-square btn-primary me-2"
                                 href="https://www.facebook.com/industriamilitar/"><i class="fab fa-facebook-f"></i></a>
                             <a target="_blank" class="btn btn-lg-square btn-primary me-2"
                                 href="https://www.instagram.com/industria_militar502/"><i
-                                    class="fab fa-instagram"></i></a>
+                                    class="fab fa-instagram"></i></a> -->
                         </div>
                     </div>
                 </div>
