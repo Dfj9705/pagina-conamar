@@ -131,11 +131,9 @@
                         </div>
                         <div class="ms-auto d-none d-lg-flex">
                             <a target="_blank" class="btn btn-sm-square btn-light ms-2" target="_blank"
-                                href="https://www.facebook.com/industriamilitar/"><i class="fab fa-facebook-f"></i></a>
+                                href="https://www.facebook.com/share/1DFigzn5Ey/"><i class="fab fa-facebook-f"></i></a>
                             <a target="_blank" class="btn btn-sm-square btn-light ms-2"
-                                href="https://www.tiktok.com/@industriamilitargt502"><i class="fab fa-tiktok"></i></a>
-                            <a target="_blank" class="btn btn-sm-square btn-light ms-2"
-                                href="https://www.instagram.com/industria_militar502/"><i
+                                href="https://www.instagram.com/digemar_dgam?igsh=eXM0MW9zdzJ0N3Vr"><i
                                     class="fab fa-instagram"></i></a>
 
                         </div>
@@ -165,13 +163,11 @@
                         <p><a class="text-decoration-none text-white" href="mailto:informatica@dgam.gob.gt"><i
                                     class="fa fa-envelope me-2"></i>informatica@dgam.gob.gt</p></a>
                         <div class="d-flex mt-4">
-                            <!-- <a target="_blank" class="btn btn-lg-square btn-primary me-2"
-                                href="https://www.tiktok.com/@industriamilitargt502"><i class="fab fa-tiktok"></i></a>
                             <a target="_blank" class="btn btn-lg-square btn-primary me-2"
-                                href="https://www.facebook.com/industriamilitar/"><i class="fab fa-facebook-f"></i></a>
+                                href="https://www.facebook.com/share/1DFigzn5Ey/"><i class="fab fa-facebook-f"></i></a>
                             <a target="_blank" class="btn btn-lg-square btn-primary me-2"
-                                href="https://www.instagram.com/industria_militar502/"><i
-                                    class="fab fa-instagram"></i></a> -->
+                                href="https://www.instagram.com/digemar_dgam?igsh=eXM0MW9zdzJ0N3Vr"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
