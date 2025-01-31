@@ -54,7 +54,7 @@
             integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
             crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="https://kit.fontawesome.com/f1593bdde9.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/27dfb146c7.js" crossorigin="anonymous"></script>
         <!-- Template Javascript -->
         <script defer src="<?= asset('./build/js/app.js') ?>"></script>
         <script defer src="<?= asset('./build/js/main.js') ?>"></script>

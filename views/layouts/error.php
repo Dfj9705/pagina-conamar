@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>MDN - DGEEEI</title>
+        <title>CONAMAR</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta http-equiv="Expires" content="0">
         <meta http-equiv="Last-Modified" content="0">
@@ -11,33 +11,32 @@
         <meta http-equiv="Pragma" content="no-cache">
 
         <!-- Favicon -->
-        <link href="/images/dgeeei.png" rel="icon">
+        <link href="/images/logos/CONAMAR.png" rel="icon">
 
 
-        <meta name="description" content="Página de la Dirección General de Especies Estancadas MDN.">
-        <meta name="keywords" content="especies, estancadas, mindef, ministerio, defensa, guatemala, explosivos">
+        <meta name="description" content="Página de la Comisión Nacional de Administración Maritima.">
+        <meta name="keywords" content="comisión, marina, defensa, nacional">
         <meta name="robots" content="index, follow">
-        <link rel="canonical" href="https://especiesestancadas.mindef.mil.gt/">
+        <link rel="canonical" href="https://conamar.gob.gt/">
 
-        <meta property="og:title" content="Dirección General de Especies Estancadas">
-        <meta property="og:description" content="Pagina de la Dirección General de Especies Estancadas MINDEF.">
-        <meta property="og:image" content="https://especiesestancadas.mindef.mil.gt/images/dgeeei.png">
-        <meta property="og:url" content="https://especiesestancadas.mindef.mil.gt">
+        <meta property="og:title" content="CONAMAR">
+        <meta property="og:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
+        <meta property="og:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
+        <meta property="og:url" content="https://conamar.gob.gt">
         <meta property="og:type" content="website">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
 
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Dirección General de Especies Estancadas MINDEF.">
-        <meta name="twitter:description" content="Pagina de la Dirección General de Especies Estancadas MINDEF.">
-        <meta name="twitter:image" content="https://especiesestancadas.mindef.mil.gt/images/dgeeei.png">
-        <meta name="twitter:url" content="https://especiesestancadas.mindef.mil.gt">
+        <meta name="twitter:title" content="Comisión Nacional de Administración Maritima.">
+        <meta name="twitter:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
+        <meta name="twitter:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
+        <meta name="twitter:url" content="https://conamar.gob.gt">
 
         <meta http-equiv="Content-Language" content="es">
 
 
         <meta name="author" content="Abner Daniel Fuentes Juárez">
-
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +54,7 @@
             integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
             crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="https://kit.fontawesome.com/3f7d66e10f.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/27dfb146c7.js" crossorigin="anonymous"></script>
         <!-- Template Javascript -->
         <script defer src="<?= asset('./build/js/app.js') ?>"></script>
         <script defer src="<?= asset('./build/js/main.js') ?>"></script>

@@ -49,7 +49,7 @@
         <link rel="stylesheet" href="<?= asset('build/css/styles.css') ?>">
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="https://kit.fontawesome.com/3f7d66e10f.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/27dfb146c7.js" crossorigin="anonymous"></script>
         <!-- Template Javascript -->
         <script src="https://cdn.tiny.cloud/1/mmwp722h7u6qc0zx8zr1g4p2drnl84mgyij8guh9kibr0pb1/tinymce/7/tinymce.min.js"
             referrerpolicy="origin"></script>
@@ -115,7 +115,7 @@
                             <div class="accordion-body">
                                 <div class="list-group list-group-flush">
                                     <a href="/admin/entradas" class="list-group-item list-group-item-action"><i
-                                            class="fas fa-file-circle-plus me-2"></i>Entradas de blog</a>
+                                            class="fas fa-file-circle-plus me-2"></i>Entradas de noticias</a>
                                 </div>
                             </div>
                         </div>
