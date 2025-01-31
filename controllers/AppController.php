@@ -23,9 +23,9 @@ class AppController
     {
         $router->render('pages/contacto', []);
     }
-    public static function blog(Router $router)
+    public static function noticias(Router $router)
     {
-        $router->render('pages/blog', [
+        $router->render('pages/noticias', [
         ]);
     }
     public static function biblioteca(Router $router)

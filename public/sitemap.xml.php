@@ -21,7 +21,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://conamar.gob.gt/blog</loc>
+        <loc>https://conamar.gob.gt/noticias</loc>
         <priority>0.9</priority>
     </url>
     <url>

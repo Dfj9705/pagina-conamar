@@ -124,7 +124,7 @@
                             <a href="/" class="nav-item nav-link">Inicio</a>
                             <a href="/mision-vision" class="nav-item nav-link">Misión y Visión</a>
                             <a href="/quienes-somos" class="nav-item nav-link">Historia</a>
-                            <a href="/blog" class="nav-item nav-link">Noticias</a>
+                            <a href="/noticias" class="nav-item nav-link">Noticias</a>
                             <a href="/biblioteca" class="nav-item nav-link">Biblioteca virtual</a>
                             <a href="/contacto" class="nav-item nav-link">Contáctenos</a>
                         </div>

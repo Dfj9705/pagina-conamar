@@ -18,7 +18,7 @@ $router->get('/', [AppController::class, 'index']);
 $router->get('/mision-vision', [AppController::class, 'misionVision']);
 $router->get('/quienes-somos', [AppController::class, 'quienesSomos']);
 $router->get('/contacto', [AppController::class, 'contacto']);
-$router->get('/blog', [AppController::class, 'blog']);
+$router->get('/noticias', [AppController::class, 'noticias']);
 $router->get('/biblioteca', [AppController::class, 'biblioteca']);
 $router->post('/API/contacto/enviar', [ContactoController::class, 'enviar']);
 $router->get('/test', [AppController::class, 'test']);
