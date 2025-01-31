@@ -26,7 +26,7 @@ class Email
         $this->mail->SMTPAuth = true;
         $this->mail->Username = $_ENV['EMAIL_USERNAME'];
         $this->mail->Password = $_ENV['EMAIL_PASSWORD'];
-        // $this->mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
+        $this->mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $this->mail->Port = $_ENV['EMAIL_PORT'];
         $this->mail->CharSet = "UTF-8";
         $this->mail->AddReplyTo($from ?? $_ENV['EMAIL_FROM_ADDRESS'], $name ?? $_ENV['EMAIL_FROM_ADDRESS']);
