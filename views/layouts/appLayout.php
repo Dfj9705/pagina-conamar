@@ -15,23 +15,23 @@
 
 
         <meta name="description" content="Página de la Comisión Nacional de Administración Maritima.">
-        <meta name="keywords" content="especies, estancadas, mindef, ministerio, defensa, guatemala, explosivos">
+        <meta name="keywords" content="comisión, marina, defensa, nacional">
         <meta name="robots" content="index, follow">
-        <link rel="canonical" href="https://industriamilitar.mindef.mil.gt/">
+        <link rel="canonical" href="https://conamar.gob.gt/">
 
-        <meta property="og:title" content="Industria MIlitar">
+        <meta property="og:title" content="CONAMAR">
         <meta property="og:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
-        <meta property="og:image" content="https://industriamilitar.mindef.mil.gt/images/logos/CONAMAR.png">
-        <meta property="og:url" content="https://industriamilitar.mindef.mil.gt">
+        <meta property="og:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
+        <meta property="og:url" content="https://conamar.gob.gt">
         <meta property="og:type" content="website">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="630">
 
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Industria MIlitar MINDEF.">
+        <meta name="twitter:title" content="CONAMAR.">
         <meta name="twitter:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
-        <meta name="twitter:image" content="https://industriamilitar.mindef.mil.gt/images/logos/CONAMAR.png">
-        <meta name="twitter:url" content="https://industriamilitar.mindef.mil.gt">
+        <meta name="twitter:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
+        <meta name="twitter:url" content="https://conamar.gob.gt">
 
         <meta http-equiv="Content-Language" content="es">
 

@@ -1,7 +1,7 @@
 {
-    "name": "mindef/industria",
+    "name": "mindef/conamar",
     "version": "1.0.0",
-    "description": "Pagina para Industria Militar",
+    "description": "Pagina para CONAMAR",
     "type": "project",
     "config": {
         "platform-check": false

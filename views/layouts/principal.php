@@ -19,7 +19,7 @@
         <meta name="robots" content="index, follow">
         <link rel="canonical" href="https://conamar.gob.gt/">
 
-        <meta property="og:title" content="Industria Militar">
+        <meta property="og:title" content="CONAMAR">
         <meta property="og:description" content="Pagina de la Comisión Nacional de Administración Maritima.">
         <meta property="og:image" content="https://conamar.gob.gt/images/logos/CONAMAR.png">
         <meta property="og:url" content="https://conamar.gob.gt">

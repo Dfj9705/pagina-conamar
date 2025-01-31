@@ -1,7 +1,7 @@
 {
-  "name": "industria-app",
+  "name": "conamar-app",
   "version": "1.0.0",
-  "description": "Pagina para Industria Militar",
+  "description": "Pagina para CONAMAR",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
