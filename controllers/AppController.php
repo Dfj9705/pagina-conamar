@@ -42,6 +42,11 @@ class AppController
 
     public static function test(Router $router)
     {
-        echo "hola";
+        http_response_code(503);
+        $router->render('pages/notfound', [
+            'codigo' => 503,
+            'error' => 'Servidor desahabilitado',
+            'detalle' => 'Contacte con el administrador'
+        ], 'layouts/error');
     }
 }

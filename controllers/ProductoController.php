@@ -3,25 +3,22 @@
 namespace Controllers;
 
 use Exception;
-use Model\Categoria;
 use Model\Imagen;
 use Model\Producto;
 use Model\Stock;
-use Model\Talla;
 use MVC\Router;
 use Intervention\Image\ImageManager;
-use Intervention\Image\Drivers\Imagick\Driver;
 
 class ProductoController
 {
     public static function index(Router $router)
     {
         isAuth();
-        $categorias = Categoria::all();
-        $tallas = Talla::all();
-        $router->render('admin/productos', [
-            'categorias' => $categorias,
-            'tallas' => $tallas,
+        // $categorias = Categoria::all();
+        // $tallas = Talla::all();
+        $router->render('admin/entradas', [
+            // 'categorias' => $categorias,
+            // 'tallas' => $tallas,
         ], 'layouts/appLayout');
     }
 

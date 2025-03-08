@@ -8,10 +8,10 @@ import 'tinymce/icons/default'
 import 'tinymce/plugins/advlist'
 import 'tinymce/plugins/lists'
 import 'tinymce/models/dom/model'
-
+let editor = '';
 document.addEventListener('DOMContentLoaded', () => {
-    tinymce.init({
-        selector: 'textarea',
+    editor = tinymce.init({
+        selector: '#not_contenido',
         license_key: 'gpl',
         promotion: false,
         height: 600,
@@ -71,9 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 
-const formProducto = document.getElementById('formProducto')
-const modalProductoElement = document.getElementById('modalProducto')
-const modalBsProducto = new Modal(modalProductoElement)
+const formNoticia = document.getElementById('formNoticia')
+const modalNoticiaElement = document.getElementById('modalNoticia')
+const modalBsNoticia = new Modal(modalNoticiaElement)
 const modalImagenesElement = document.getElementById('modalImagenes')
 const modalBsImagen = new Modal(modalImagenesElement)
 const btnGuardar = document.getElementById('btnGuardar')
@@ -174,10 +174,12 @@ let tablaImagenes = new DataTable('#datatableImagenes', {
 
 const guardar = async (e) => {
     e.preventDefault();
+    let contenido = tinymce.get('not_contenido').getContent();
     spanLoader.style.display = ''
     btnGuardar.disabled = true
-    formProducto.classList.add('was-validated')
-    if (!formProducto.checkValidity()) {
+    formNoticia.classList.add('was-validated')
+
+    if (!formNoticia.checkValidity() || contenido == '') {
         Toast.fire({
             icon: 'info',
             title: "Debe llenar todos los campos"
@@ -187,11 +189,11 @@ const guardar = async (e) => {
 
         return
     }
-
     try {
 
-        const body = new FormData(formProducto)
-        const url = "/API/admin/productos/guardar"
+        const body = new FormData(formNoticia)
+        body.append('not_contenido', contenido)
+        const url = "/API/admin/entradas/guardar"
         const headers = new Headers()
         headers.append('X-Requested-With', 'fetch');
         const config = {
@@ -208,9 +210,9 @@ const guardar = async (e) => {
         console.log(data);
         if (codigo == 1) {
             icon = 'success'
-            formProducto.reset()
-            modalBsProducto.hide()
-            formProducto.classList.remove('was-validated')
+            formNoticia.reset()
+            modalBsNoticia.hide()
+            formNoticia.classList.remove('was-validated')
             buscar();
         } else if (codigo == 2) {
             icon = 'warning'
@@ -263,7 +265,7 @@ const buscar = async () => {
         console.log(error);
     }
 }
-buscar();
+// buscar();
 
 const verFotos = async (e) => {
     let element = e.currentTarget
@@ -388,12 +390,12 @@ const cambiarEstado = async (e) => {
 const asignarValores = (e) => {
     const dataset = e.currentTarget.dataset;
     const tallas = dataset.tallas.split(',')
-    formProducto.pro_id.value = dataset.id
-    formProducto.pro_nombre.value = dataset.nombre
-    formProducto.pro_precio.value = dataset.precio
-    formProducto.pro_descripcion.value = dataset.descripcion
-    formProducto.pro_cat_id.value = dataset.categoria
-    formProducto.prod_imagen.required = false
+    formNoticia.pro_id.value = dataset.id
+    formNoticia.pro_nombre.value = dataset.nombre
+    formNoticia.pro_precio.value = dataset.precio
+    formNoticia.pro_descripcion.value = dataset.descripcion
+    formNoticia.pro_cat_id.value = dataset.categoria
+    formNoticia.prod_imagen.required = false
     btnGuardar.style.display = 'none'
     btnGuardar.disabled = true
 
@@ -409,15 +411,15 @@ const asignarValores = (e) => {
     btnModificar.style.display = ''
     btnModificar.disabled = false
     modalTitleIdProducto.textContent = 'Modificar producto'
-    modalBsProducto.show();
+    modalBsNoticia.show();
 }
 
 const modificar = async (e) => {
     e.preventDefault();
     spanLoaderModificar.style.display = ''
     btnModificar.disabled = true
-    formProducto.classList.add('was-validated')
-    if (!formProducto.checkValidity()) {
+    formNoticia.classList.add('was-validated')
+    if (!formNoticia.checkValidity()) {
         Toast.fire({
             icon: 'info',
             title: "Debe llenar todos los campos"
@@ -430,7 +432,7 @@ const modificar = async (e) => {
 
     try {
 
-        const body = new FormData(formProducto)
+        const body = new FormData(formNoticia)
         const url = "/API/admin/productos/modificar"
         const headers = new Headers()
         headers.append('X-Requested-With', 'fetch');
@@ -448,9 +450,9 @@ const modificar = async (e) => {
         console.log(data);
         if (codigo == 1) {
             icon = 'success'
-            formProducto.reset()
-            modalBsProducto.hide()
-            formProducto.classList.remove('was-validated')
+            formNoticia.reset()
+            modalBsNoticia.hide()
+            formNoticia.classList.remove('was-validated')
             buscar();
         } else if (codigo == 2) {
             icon = 'warning'
@@ -474,20 +476,20 @@ const modificar = async (e) => {
     btnModificar.disabled = false
 }
 
-formProducto.addEventListener('submit', guardar)
+formNoticia.addEventListener('submit', guardar)
 btnModificar.addEventListener('click', modificar)
 tablaProductos.on('click', '.fotos', verFotos)
 tablaProductos.on('click', '.estado', cambiarEstado)
 tablaProductos.on('click', '.modificar', asignarValores)
 tablaImagenes.on('click', '.eliminar-foto', eliminarFoto)
-modalProductoElement.addEventListener('hide.bs.modal', () => {
+modalNoticiaElement.addEventListener('hide.bs.modal', () => {
     btnGuardar.style.display = ''
     btnGuardar.disabled = false
     btnModificar.style.display = 'none'
     btnModificar.disabled = true
     modalTitleIdProducto.textContent = 'Crear producto'
-    formProducto.prod_imagen.required = true
-    formProducto.classList.remove('was-validated')
+    formNoticia.prod_imagen.required = true
+    formNoticia.classList.remove('was-validated')
     const select = document.getElementById('prod_tallas');
 
     for (let i = 0; i < select.options.length; i++) {
@@ -495,5 +497,5 @@ modalProductoElement.addEventListener('hide.bs.modal', () => {
         select.options[i].selected = false;
 
     }
-    formProducto.reset()
+    formNoticia.reset()
 })
